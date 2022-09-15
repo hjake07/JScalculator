@@ -1,0 +1,97 @@
+.outercalc {
+    display: flex;
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    margin: 50px;
+    position: relative;
+}
+#calcScreen {
+    font-size: 50px;
+    display: flex;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    margin: 10px auto;
+}
+.numberButton {
+    display: flex;
+    border-radius: 25%;
+    font-size: 40px;
+    position: absolute;
+    padding: 0 20px;
+    background-color: orange;
+}
+.numberButton:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
+#num0 {
+    top:100px;
+    left: 120px;
+}
+#num1 {
+    top:100px;
+    left: 260px;
+}
+#num2 {
+    top: 100px;
+    right: 120px;
+}
+#num3 {
+    top: 200px;
+    left: 120px;
+
+}
+#num4 {
+    top: 200px;
+    left: 260px;
+
+
+}
+#num5 {
+    top: 200px;
+    right: 120px;
+
+}
+#num6 {
+    left: 120px;
+    top: 300px;
+}
+#num7 {
+    left: 260px;
+    top: 300px;
+}
+#num8 {
+    right: 120px;
+    top: 300px;
+}
+#num9 {
+    top: 400px;
+    left: 260px;
+}
+#itsNull {
+    top: 520px;
+    left: 100px;
+}
+#multiply {
+    right: 150px;
+    top: 450px;
+}
+#divide {
+    right: 50px;
+    top: 450px;
+}
+#enter {
+    top: 500px;
+    left: 260px;
+}
+#add {
+    left: 50px;
+    top: 450px;
+}
+#subtract {
+    left: 150px;
+    top: 450px;
+}
