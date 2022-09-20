@@ -84,22 +84,37 @@ function divide(){
     let calculatorScreen = document.getElementById('calcScreen');
     calculatorScreen.innerText += '/';
 }
-
+let calculatorScreen = document.getElementById('calcScreen')
 function enter(){
     if(calculatorScreen.innerHTML[1] === '+' ){
-   let calculatorScreen = document.getElementById('calcScreen')
    let a = calculatorScreen.innerHTML[0]
    let b = calculatorScreen.innerHTML[2]
    let sum = Number(a) + Number(b)
    console.log(sum)
    calculatorScreen.innerText = sum;
 } 
-    else {
+    else if(calculatorScreen.innerHTML[1] === '-') {
         let calculatorScreen = document.getElementById('calcScreen')
         console.log('subtract')
         let a = calculatorScreen.innerHTML[0]
         let b = calculatorScreen.innerHTML[2]
         let sum = Number(a) - Number(b)
+        console.log(sum)
+        calculatorScreen.innerText = sum;
+    }
+    else if(calculatorScreen.innerHTML[1] === '*') {
+        let calculatorScreen = document.getElementById('calcScreen')
+        let a = calculatorScreen.innerHTML[0]
+        let b = calculatorScreen.innerHTML[2]
+        let sum = Number(a) * Number(b)
+        console.log(sum)
+        calculatorScreen.innerText = sum;
+    }
+    else if(calculatorScreen.innerHTML[1] === '/') {
+        let calculatorScreen = document.getElementById('calcScreen')
+        let a = calculatorScreen.innerHTML[0]
+        let b = calculatorScreen.innerHTML[2]
+        let sum = Number(a) / Number(b)
         console.log(sum)
         calculatorScreen.innerText = sum;
     }

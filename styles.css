@@ -11,9 +11,10 @@
     font-size: 50px;
     display: flex;
     width: 90%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(35, 68, 30);
     height: 80px;
     margin: 10px auto;
+    color: white;
 }
 .numberButton {
     display: flex;
@@ -76,12 +77,11 @@
     left: 100px;
 }
 #multiply {
-    background-color: rgb(242, 234, 234);
     right: 150px;
     top: 450px;
 }
 #divide {
-    background-color: rgb(242, 234, 234);
+
 
     right: 50px;
     top: 450px;
@@ -95,7 +95,6 @@
     top: 450px;
 }
 #subtract {
-    background-color: rgb(242, 234, 234);
 
     left: 150px;
     top: 450px;
