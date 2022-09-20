@@ -86,5 +86,22 @@ function divide(){
 }
 
 function enter(){
-    //empty for now
+    if(calculatorScreen.innerHTML[1] === '+' ){
+   let calculatorScreen = document.getElementById('calcScreen')
+   let a = calculatorScreen.innerHTML[0]
+   let b = calculatorScreen.innerHTML[2]
+   let sum = Number(a) + Number(b)
+   console.log(sum)
+   calculatorScreen.innerText = sum;
+} 
+    else {
+        let calculatorScreen = document.getElementById('calcScreen')
+        console.log('subtract')
+        let a = calculatorScreen.innerHTML[0]
+        let b = calculatorScreen.innerHTML[2]
+        let sum = Number(a) - Number(b)
+        console.log(sum)
+        calculatorScreen.innerText = sum;
+    }
 }
+
